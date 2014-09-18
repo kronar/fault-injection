@@ -13,7 +13,7 @@ public class GeneratorFaultDecorator implements RandomGenerator{
     @Override
     public int get() {
         if (faultModeManager.isEnabled()){
-            return new Random().nextInt(1);
+            return new Random().nextInt(2);
         }
         return delegate.get();
     }
