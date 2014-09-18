@@ -9,10 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <properties>
         <jetty.version>8.1.9.v20130131</jetty.version>
-        <resources.dir>src/main/resources</resources.dir>
-        <distributive.dir>${project.build.directory}/distrib</distributive.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
     </properties>
 
     <dependencies>
